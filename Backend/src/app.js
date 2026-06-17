@@ -5,8 +5,8 @@ import cors from 'cors'
 const app = express()
 app.use(cors({
     origin: [
-        "http://localhost:5173",
-        "https://email-verification-authentication.vercel.app"
+        "https://email-verification-authentication.vercel.app",
+        "http://localhost:5173"
     ],
     credentials: true
 }))
