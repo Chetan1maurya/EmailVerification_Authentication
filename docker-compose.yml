@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: chetanmaurya/backend:latest
+  
+  frontend:
+    image: chetanmaurya/frontend:latest
+    
+  mongoDb:
+    image: mongo
+    
+    volumes:
+      - mongo-data:/data/db
+  
+volumes:
+  mongo-data:
