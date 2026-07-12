@@ -1,2 +1,4 @@
 node_modules
 Dockerfile
+.env.production
+.env.development
